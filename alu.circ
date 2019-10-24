@@ -180,7 +180,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(580,480)" to="(580,530)"/>
     <wire from="(650,620)" to="(650,630)"/>
     <wire from="(650,720)" to="(650,730)"/>
-    <wire from="(670,440)" to="(670,450)"/>
     <wire from="(570,220)" to="(570,230)"/>
     <wire from="(570,400)" to="(620,400)"/>
     <wire from="(580,710)" to="(630,710)"/>
@@ -305,9 +304,11 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     </comp>
     <comp lib="3" loc="(670,440)" name="Shifter">
       <a name="width" val="32"/>
+      <a name="shift" val="lr"/>
     </comp>
     <comp lib="3" loc="(670,490)" name="Shifter">
       <a name="width" val="32"/>
+      <a name="shift" val="ar"/>
     </comp>
     <comp lib="3" loc="(670,540)" name="Shifter">
       <a name="width" val="32"/>

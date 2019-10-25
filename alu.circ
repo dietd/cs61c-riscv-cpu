@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project source="2.14.6" version="1.0">
-  This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
-
-  <lib desc="#Wiring" name="0">
+This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
+<lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
@@ -134,10 +133,10 @@
       <polyline fill="none" points="120,71 120,159" stroke="#000000" stroke-width="2"/>
       <polyline fill="none" points="39,210 120,160" stroke="#000000" stroke-width="2"/>
       <polyline fill="none" points="39,130 39,209" stroke="#000000" stroke-width="2"/>
-      <circ-port height="8" pin="200,250" width="8" x="36" y="166"/>
       <circ-port height="10" pin="1180,240" width="10" x="115" y="105"/>
-      <circ-port height="8" pin="200,160" width="8" x="36" y="56"/>
       <circ-port height="8" pin="200,310" width="8" x="86" y="176"/>
+      <circ-port height="8" pin="200,160" width="8" x="36" y="56"/>
+      <circ-port height="8" pin="200,250" width="8" x="36" y="166"/>
       <polyline fill="none" points="40,21 40,100" stroke="#000000" stroke-width="2"/>
       <polyline fill="none" points="40,100 59,115" stroke="#000000" stroke-width="2"/>
       <polyline fill="none" points="40,130 59,116" stroke="#000000" stroke-width="2"/>
@@ -210,12 +209,14 @@
     <wire from="(550,200)" to="(570,200)"/>
     <wire from="(560,530)" to="(580,530)"/>
     <wire from="(330,1100)" to="(350,1100)"/>
+    <wire from="(610,810)" to="(640,810)"/>
     <wire from="(930,250)" to="(960,250)"/>
     <wire from="(950,70)" to="(950,230)"/>
     <wire from="(200,250)" to="(220,250)"/>
     <wire from="(230,930)" to="(240,930)"/>
     <wire from="(470,1150)" to="(550,1150)"/>
     <wire from="(900,400)" to="(910,400)"/>
+    <wire from="(640,780)" to="(650,780)"/>
     <wire from="(550,370)" to="(560,370)"/>
     <wire from="(570,710)" to="(580,710)"/>
     <wire from="(630,290)" to="(640,290)"/>
@@ -255,9 +256,7 @@
     <wire from="(630,420)" to="(640,420)"/>
     <wire from="(580,770)" to="(590,770)"/>
     <wire from="(560,520)" to="(560,530)"/>
-    <wire from="(610,810)" to="(660,810)"/>
     <wire from="(570,920)" to="(630,920)"/>
-    <wire from="(660,780)" to="(660,810)"/>
     <wire from="(940,370)" to="(940,460)"/>
     <wire from="(880,280)" to="(880,300)"/>
     <wire from="(180,1030)" to="(220,1030)"/>
@@ -291,7 +290,6 @@
     <wire from="(520,1000)" to="(630,1000)"/>
     <wire from="(550,270)" to="(570,270)"/>
     <wire from="(550,670)" to="(570,670)"/>
-    <wire from="(660,780)" to="(680,780)"/>
     <wire from="(260,930)" to="(290,930)"/>
     <wire from="(690,960)" to="(720,960)"/>
     <wire from="(550,100)" to="(580,100)"/>
@@ -318,6 +316,7 @@
     <wire from="(940,100)" to="(940,240)"/>
     <wire from="(290,990)" to="(290,1010)"/>
     <wire from="(290,910)" to="(290,930)"/>
+    <wire from="(640,780)" to="(640,810)"/>
     <wire from="(920,350)" to="(960,350)"/>
     <wire from="(550,940)" to="(550,1150)"/>
     <wire from="(230,930)" to="(230,960)"/>
@@ -923,10 +922,6 @@
       <a name="text" val="sub"/>
       <a name="font" val="SansSerif plain 12"/>
     </comp>
-    <comp lib="0" loc="(680,780)" name="Tunnel">
-      <a name="width" val="32"/>
-      <a name="label" val="mulhu0"/>
-    </comp>
     <comp lib="0" loc="(810,1040)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="incoming" val="32"/>
@@ -1199,6 +1194,10 @@
     <comp lib="0" loc="(960,460)" name="Tunnel">
       <a name="width" val="32"/>
       <a name="label" val="mulh0"/>
+    </comp>
+    <comp lib="0" loc="(650,780)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="mulhu0"/>
     </comp>
   </circuit>
 </project>

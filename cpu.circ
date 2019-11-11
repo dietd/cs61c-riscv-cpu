@@ -1272,7 +1272,9 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="4" loc="(330,310)" name="ROM">
-      <a name="contents">addr/data: 8 8
+      <a name="addrWidth" val="24"/>
+      <a name="dataWidth" val="6"/>
+      <a name="contents">addr/data: 24 6
 0 0 0 1 11*0 1
 </a>
     </comp>

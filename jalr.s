@@ -10,16 +10,17 @@ factorial:
 
     addi sp sp -12
 
-    sw ra 4(sp)
     sw a0 0(sp)
+    sw ra 4(sp)
     sw s0 8(sp)
 
     addi a0 a0 -1
     jalr x0 ra 0x8
 
-    lw a0 0(sp)
+    lw s0 8(sp)
     lw ra 4(sp)
-    sw s0 8(sp)
+    lw a0 0(sp)
+    
     addi sp sp 12
 
     mul a0 s0 a0

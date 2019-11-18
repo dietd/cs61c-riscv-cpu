@@ -15,7 +15,7 @@ factorial:
     sw s0 8(sp)
 
     addi a0 a0 -1
-    jalr x0 ra factorial
+    jalr x0 ra 0x8
 
     lw a0 0(sp)
     lw ra 4(sp)

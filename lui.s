@@ -1,2 +1,3 @@
 main:
-    lui t0, 0xc000
+    addi t0, x0, 1
+    lui t1, t0

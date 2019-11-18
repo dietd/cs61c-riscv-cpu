@@ -5,7 +5,7 @@ main:
 
 factorial:
     blt a0 t0 done
-   
+
     addi s0 a0 0
 
     addi sp sp -12
@@ -15,8 +15,8 @@ factorial:
     sw s0 8(sp)
 
     addi a0 a0 -1
-    jal ra factorial
-    
+    jalr x0 ra factorial
+
     lw a0 0(sp)
     lw ra 4(sp)
     sw s0 8(sp)

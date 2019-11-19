@@ -245,7 +245,7 @@
     <wire from="(1310,550)" to="(1320,550)"/>
     <wire from="(1350,430)" to="(1360,430)"/>
     <wire from="(1240,720)" to="(1250,720)"/>
-    <wire from="(610,920)" to="(630,920)"/>
+    <wire from="(580,930)" to="(600,930)"/>
     <wire from="(1120,680)" to="(1130,680)"/>
     <wire from="(300,610)" to="(320,610)"/>
     <wire from="(250,520)" to="(270,520)"/>
@@ -316,13 +316,13 @@
     <wire from="(1070,210)" to="(1120,210)"/>
     <wire from="(240,160)" to="(270,160)"/>
     <wire from="(390,790)" to="(420,790)"/>
+    <wire from="(490,930)" to="(520,930)"/>
     <wire from="(1120,740)" to="(1130,740)"/>
     <wire from="(340,820)" to="(370,820)"/>
     <wire from="(380,310)" to="(590,310)"/>
     <wire from="(240,770)" to="(260,770)"/>
     <wire from="(1410,550)" to="(1410,610)"/>
     <wire from="(360,370)" to="(380,370)"/>
-    <wire from="(520,920)" to="(550,920)"/>
     <wire from="(1810,870)" to="(1820,870)"/>
     <wire from="(1560,90)" to="(1560,210)"/>
     <wire from="(240,730)" to="(260,730)"/>
@@ -333,7 +333,7 @@
     <wire from="(1810,770)" to="(1840,770)"/>
     <wire from="(1830,870)" to="(1860,870)"/>
     <wire from="(2130,510)" to="(2130,540)"/>
-    <wire from="(540,960)" to="(550,960)"/>
+    <wire from="(510,970)" to="(520,970)"/>
     <wire from="(980,210)" to="(1030,210)"/>
     <wire from="(380,240)" to="(380,310)"/>
     <wire from="(370,750)" to="(370,820)"/>
@@ -979,17 +979,17 @@
       <a name="width" val="32"/>
       <a name="label" val="PC"/>
     </comp>
-    <comp lib="0" loc="(520,920)" name="Tunnel">
+    <comp lib="0" loc="(490,930)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="PCSel"/>
     </comp>
-    <comp lib="4" loc="(550,890)" name="Register">
-      <a name="width" val="1"/>
-    </comp>
-    <comp lib="0" loc="(630,920)" name="Tunnel">
+    <comp lib="0" loc="(600,930)" name="Tunnel">
       <a name="label" val="NOP"/>
     </comp>
-    <comp lib="0" loc="(540,960)" name="Tunnel">
+    <comp lib="4" loc="(520,900)" name="Register">
+      <a name="width" val="1"/>
+    </comp>
+    <comp lib="0" loc="(510,970)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="clk"/>
     </comp>
@@ -1007,8 +1007,8 @@
       <rect fill="none" height="40" stroke="#000000" stroke-width="2" width="60" x="60" y="50"/>
       <text font-family="Dialog" font-size="14" font-weight="bold" text-anchor="middle" x="91" y="72">immGen</text>
       <text font-family="Comic Sans MS" font-size="6" text-anchor="middle" x="76" y="62">inst_In</text>
-      <circ-port height="10" pin="1000,370" width="10" x="115" y="65"/>
       <circ-port height="8" pin="200,50" width="8" x="56" y="56"/>
+      <circ-port height="10" pin="1000,370" width="10" x="115" y="65"/>
       <text font-family="Comic Sans MS" font-size="6" text-anchor="middle" x="75" y="82">immSel</text>
       <circ-port height="8" pin="160,110" width="8" x="56" y="76"/>
       <circ-anchor facing="east" height="6" width="6" x="117" y="67"/>
@@ -1664,7 +1664,7 @@
 4*10141 4*0 4*10151 4*0 16*10121 16*10111 416*0 16*1105
 464*0 4*10001 4*100a1 4*100c1 4*0 4*10061 4*100e1 8*0
 4*10071 16*0 4*100b1 8*0 4*10031 12*0 4*10041 4*10081
-8*0 4*10021 12*0 4*10011 4*10091 8*0 16*13101 1392*0
+8*0 4*10021 12*0 4*10011 4*10091 8*0 16*131d1 1392*0
 2301 2301 22301 22301 2301 2301 22301 22301
 2301 2301 22301 22301 2301 2301 4*22301 2301
 2301 22301 22301 2301 2301 22301 22301 2301
